@@ -176,15 +176,15 @@ chrome.app.runtime.onLaunched.addListener(function() {
                 // el identificador de la conexión.
                 chrome.serial.connect(portsInfo.value, {
                     bitrate : parseInt(baudiosInfo.value)
-                }, function(connectionInfo) {                    
-                    connectionId = connectionInfo.connectionId;
+                }, function(connectionInfo) {
                     
-                    // Si la conexión fallo connectionId es null, en cuyo caso
+                    // Si la conexión fallo connectionInfo es null, en cuyo caso
                     // mostrar un mensaje y terminar.
-                    if(!connectionId) {
+                    if(!connectionInfo) {
                         connectionStatus.value = "ERROR, NO CONECTADO"
                         return;
-                    }
+                    }                    
+                    connectionId = connectionInfo.connectionId;
                     
                     // Deshabilita el botón para conectar (dado que ya se está conectado)
                     // y habilita el para desconectar.
