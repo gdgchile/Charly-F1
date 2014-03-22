@@ -1,7 +1,7 @@
 Charly-F1
 =========
 
-[!Image](screen.png)
+[!Image](https://raw.githubusercontent.com/gdgchile/Charly-F1/master/screen.png)
 
 Un control remoto para el [Charly-F1](http://www.charlylabs.cl/charly-labs/charly-f1-version1-1-autito-control-remoto-bluetooth-con-arduino-y-avr/),
 más que eso un ejemplo de cómo crear una [Chrome App](https://developer.chrome.com/apps/about_apps),
