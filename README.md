@@ -20,7 +20,7 @@ puerto serial.
 
 A favor:
 * El código fuente de Charly F1 es público, así que no es necesario hacer ingeniería inversa.
-* El aparato es fácil de fabricar, y aun si no se quisiera el software es el de Ardiuno, así que para
+* El aparato es fácil de fabricar, y aun si no se quisiera el software es el de Arduino, así que para
 debug se puede utilizar el monitor serial de Arduino (ver test/sketch.ino).
 * La aplicación actual de Charly F1 está en VB, tecnología cerrada de Microsoft. Esta usa la tecnología
 cerrada de Google xD, pero al menos es multiplataforma (Hice todo esto en Linux ♥).
