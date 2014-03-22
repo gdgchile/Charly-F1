@@ -1,12 +1,16 @@
 Charly-F1
 =========
 
+[!Image](screen.png)
+
 Un control remoto para el [Charly-F1](http://www.charlylabs.cl/charly-labs/charly-f1-version1-1-autito-control-remoto-bluetooth-con-arduino-y-avr/),
 más que eso un ejemplo de cómo crear una [Chrome App](https://developer.chrome.com/apps/about_apps),
 además de usar el puerto serial de la API de Chrome.
 
 ##¿Qué es y por qué Charly-F1?
+
 ![Image](http://www.charlylabs.cl/wp-content/uploads/2013/09/f1-cap-300x160.jpg)
+
 Es un autito a control remoto (BlueTooth) de un tal Charly, el compadre hace [videos](https://www.youtube.com/user/charlylabs)
 educativos al estilo "hagalo usted mismo" sobre electrónica y cosas varias, super recomendable.
 
