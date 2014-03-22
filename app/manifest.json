@@ -1,0 +1,14 @@
+{
+    "name": "Charly-F1",
+    "description": "Esta app es un control remoto para el Charly F1,\n (http://www.charlylabs.cl/charly-labs/charly-f1-version1-1-autito-control-remoto-bluetooth-con-arduino-y-avr/)\n más que eso, es un ejemplo de cómo hacer una aplicación para\n Chrome (Chrome App) y usar el puerto serial según la API de Chrome.",
+    "version": "0.1",
+    "app": {
+        "background": {
+            "scripts": ["background.js"]
+        }
+    },
+    "icons": { "16": "icon-16.png", "128": "icon-128.png" },
+    "permissions": [
+        "serial"
+    ]
+}

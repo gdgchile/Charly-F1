@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <a href="https://github.com/gdgchile/Charly-F1" target="_blank"><h1>Charly F1</h1></a>
+        <div id="wheel">
+            <div id="wheel_b">
+                <div id="wheel_c">
+                    <div id="wheel_d"></div>
+                    <div id="beep"></div>
+                </div>		
+            </div>
+        </div>
+        <div id="direction">
+            <div id="up"></div>
+            <div id="speed">1</div>
+            <div id="down"></div>
+        </div>
+        <footer>
+            <fieldset>
+                <legend>Conexión</legend>
+                <select id="ports" title="Puerto serial"></select>
+                <select id="baudios" title="Baudios">                
+                    <option value="110">110</option>
+                    <option value="300">300</option>
+                    <option value="1200">1200</option>
+                    <option value="2400">2400</option>
+                    <option value="4800">4800</option>
+                    <option value="9600" selected>9600</option>
+                    <option value="14400">14400</option>
+                    <option value="19200">19200</option>
+                    <option value="38400">38400</option>
+                    <option value="57600">57600</option>
+                    <option value="115200">115200</option>
+                </select>
+                <button id="connect">Conectar</button>
+                <button id="disconnect" disabled>Desconectar</button>
+                <label>status <input id="connectionStatus" type="text" value="NO CONECTADO" disabled /></label>
+            </fieldset>
+            <fieldset class="bg-logo">
+                <legend>Instrucciones de teclado</legend>
+                <div class="columns">
+                    <p>W : Avanzar</p>
+                    <p>S : Retroceder</p>
+                    <p>A : Izquierda</p>
+                    <p>D : Derecha</p>
+                    <p>1 : Ir lento</p>
+                    <p>2 : Ir normal</p>
+                    <p>3 : Ir rápido</p>
+                </div>
+            </fieldset>
+        </footer>
+    </body>
+</html>
